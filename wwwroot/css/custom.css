@@ -1,0 +1,82 @@
+﻿.cabecera {
+    background-color: #d7192d;
+    height:75px;
+}
+.logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important; /* 50% of your logo width */
+    display: block;
+}
+
+.bgRed {
+    background-color: #d7192d;
+}
+
+.textAzul {
+    color: #154481;
+}
+
+.textAmarillo {
+    color: #FCD100;
+}
+
+.textRojo {
+    color: #d7192d;
+}
+
+.textMorado {
+    font-weight: bold;
+    color: #812dff;
+}
+
+.textoGris {
+    color: #707070;
+}
+
+.salto {
+    margin-top: 25px;
+}
+
+.lateral{
+    border-left:outset;
+    border-right:inset;
+}
+
+.center {
+    text-align: center !important;
+    margin: auto;
+    width: 50%;
+}
+
+.textoCentrado {
+    text-align: center;
+}
+
+.boton {
+    background: url("../images/boton.png") center no-repeat;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.borde {
+    min-height: 7.7em;
+    border: 1px solid #B8B8B8;
+}
+
+.margen {
+    padding-top: 1em;
+}
+
+.textoMasGrande {
+    font-size: 1.4em;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.margenAbajo {
+    margin-bottom: 30px;
+}

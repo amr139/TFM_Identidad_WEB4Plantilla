@@ -1,0 +1,18 @@
+{
+    "profiles": {
+        "WebAgent": {
+            "commandName": "Executable",
+            "executablePath": "dotnet",
+            "commandLineArgs": "watch run",
+            "workingDirectory": "$(ProjectDir)",
+            "launchBrowser": true,
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "JWT_KEY": null, //rellenar este valor
+                "ENDPOINT_HOST": "localhost:80"
+            },
+            "nativeDebugging": true,
+            "applicationUrl": "http://0.0.0.0:80"
+        }
+    }  
+}
